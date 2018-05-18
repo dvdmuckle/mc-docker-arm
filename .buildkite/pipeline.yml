@@ -1,0 +1,4 @@
+steps:
+  - command: "docker build -t dvdmuckle/mc-arm --no-cache ."
+
+  - command: "docker push dvdmuckle/mc-arm"
